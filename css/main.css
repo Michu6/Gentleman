@@ -1,0 +1,120 @@
+*, .col-md-2, .col-md-3,.col-md-4, .col-md-6, .col-md-8,.col-md-9, .col-md-10 {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	font-family: "Rokkitt";
+}
+.row {
+	margin: 0;
+	padding: 0;
+}
+a, a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+h3 {
+	font-size: 20px;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+/* ----- HEADER ----- */
+header {
+	background-color: #322E39;
+	color: white;
+	border-top: 6px solid #000000;
+}
+	header .logo-narrow {
+		font-size: 30px;
+		font-family: "Arial Narrow";
+	}
+	header .logo-strong {
+		font-family: "Arial Black";
+		font-size: 30px;
+	}
+	header nav {
+		text-align: right;
+	}
+	header nav ul li{
+		display: inline-block;
+		margin: 0 15px;
+		font-size: 18px;
+		padding-top: 8px;
+		color: white;
+	}
+	header nav ul li a {
+		color: white;
+	}
+	header nav ul li a:hover {
+		color: #E12562;
+	}
+
+/* ----- CONTENT ------ */
+#content {
+	background-color: #DFDFE9;
+}
+#content .container {
+	background-color: #F4F5F8;
+	box-shadow: 0px 0px 7px black;
+}
+	#content .btn-gray {
+		margin-top: 10%;
+	}
+	#content .btn-gray a, .latest-proyects .btn-load a {
+		background-color: #B0ADB7;
+		padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+	}
+	#content .btn-gray a:hover, .latest-proyects .btn-load a:hover {
+		background-color: #E12562;
+	}
+
+/* ----- SECTION CONTENT DESCRIPTION ------*/
+	.content-description {
+		padding: 4% 0;
+	}
+	.content-description .col-md-8 img {
+		width: 95%;
+	}
+	
+
+/* ----- SECTION LATEST PROYECT ----*/
+.latest-proyects .proyect-description {
+	padding: 3%;
+} 
+.latest-proyects img {
+	width: 100%;
+}
+	.latest-proyects .btn-load a{
+		background-color: #6C6577;
+	}
+
+/* ----- SECTION FOLLOW US ----*/
+.follow-us {
+	margin: 6% 0;
+}
+	.follow-us i {
+		font-size: 100px;
+	}
+	.follow-us .quote {
+		font-size: 25px;
+	}
+	.follow-us .btn-follow {
+		background-color: #B0ADB7;
+		padding: 5px 10px;
+    border-radius: 25px;
+	}
+
+/* ----- FOOTER ----- */
+footer {
+	background-color: #322E39;
+	color: white;
+}
